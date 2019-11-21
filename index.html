@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: Arial;
+            font-size: 17px;
+        }
+        
+        #myVideo {
+            position: fixed;
+            /* right: 0;
+            bottom: 0; */
+            min-width: 155%;
+            min-height: 100%;
+            margin-top: -23%;
+            margin-left: -27.5%;
+        }
+        
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+        }
+        
+        .container .btn {
+            position: fixed;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.5);
+            color: white;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            text-align: center;
+            width: 35%;
+            height: 5%;
+        }
+        
+        .container .btn:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        
+        a {
+            font-family: minecrafter;
+            display: block;
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <video autoplay muted loop id="myVideo">
+      <source src="video/Minecraft.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+        <button class="btn" type="button"><a href="page/main.html" class = "link">Main Website</a></button>
+
+    </div>
+
+
+</body>
+
+</html>
