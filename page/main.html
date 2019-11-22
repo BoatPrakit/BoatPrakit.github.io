@@ -3,6 +3,10 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="../boat.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+
+    <title>Minecraft Page</title>
+
     <style>
         @import url(https://fonts.google.com/specimen/Kanit?selection.family=Kanit);
         body {
@@ -25,6 +29,22 @@
         
         #content img {
             position: absolute;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:link {
+            color: white;
+        }
+        
+        a:visited {
+            color: white;
+        }
+        
+        a:hover {
+            color: rgba(255, 255, 255, 0.5);
         }
     </style>
 
@@ -52,7 +72,7 @@
         </div>
     </div>
     <div id="content">
-        <img src="../picture/steve.png" style="margin-left:-10%;">
+        <img src="../picture/steve.png" style="margin-left:-10%;z-index: 0;">
         <img src="../picture/alex.png" style="right: 10%;">
         <p>Player หรือ Steve<br> คือตัวละครหลักในMinecraftและเป็นตัวละครเพียงตัวเดียวที่สามารถ ควบคุมโดยตรงได้โดยปกติจะถูกควบคุมในมุมมองบุคคลที่หนึ่ง (แต่สามารถสลับมุมมองให้เป็นบุคคลที่สองหรือสามได้)มีสกินปกติ สองสกินชื่อว่าสตีฟ(Steve)สวมใส่ชุดสีฟ้าและอเล็กซ์(Alex)มีผมสีส้มและสวมใส่ชุดสีเขียวอ่อน
         </p>
@@ -66,7 +86,33 @@
     <div class="footer">
 
         <p>ติดต่อพวกเรา</p>
+        <hr align="center" width="30%">
+        <table style="margin-left: 20%;">
+            <tr>
+                <td><img src="../picture/facebook.png" style="width: 130px;height: 130px;right: 0;"></td>
+                <td colspan="2">
+                    <ul style="float: none; text-align: left;margin-left: 0%;">
+                        <li>
+                            <a href="https://www.facebook.com/prakitboat">Prakit Wongnuntananon</a></li>
+                        <li><a href="https://www.facebook.com/pasikorn.jantatwong">Phatsakorn</a> </li>
+                        <li><a href="https://www.facebook.com/Mymewskeletonbaer">Piyathida</a></li>
 
+                    </ul>
+                </td>
+                <td>
+                    <img src="../picture/instagram.png" style="width: 150px;height: 150px;">
+                </td>
+                <td>
+                    <ul style="float: none; text-align: left;margin-left: 0%;">
+                        <li>
+                            <a href="https://www.instagram.com/boat_pkt/?hl=th">boat_pkt</a></li>
+                        <li><a href="https://www.instagram.com/mmpsk_/?hl=th">mmpsk_</a> </li>
+                        <li><a href="https://www.instagram.com/___pentakill/?hl=th">___pentakill</a></li>
+
+                    </ul>
+                </td>
+            </tr>
+        </table>
     </div>
     <script src="../boat.js">
     </script>

@@ -1,7 +1,12 @@
-/* @font-face {
+@font-face {
     font-family: minecrafter;
-    src: url(minecrafter.reg.ttf);
-} */
+    src: url(/fonts/Minecrafter.Reg.ttf);
+}
+
+@font-face {
+    font-family: Kanit;
+    src: url("https://fonts.google.com/specimen/Kanit?selection.family=Kanit");
+}
 
 * {
     margin: 0;
@@ -84,6 +89,7 @@ td {
     background-color: #333;
     text-transform: uppercase;
     letter-spacing: 3px;
+    z-index: 5;
 }
 
 #navbar ul {
@@ -117,10 +123,7 @@ td {
     border-radius: 20px;
 }
 
-#navbar .small,
-#navbar .small2,
-#navbar .small3,
-#navbar .small4 {
+#navbar .small {
     padding-top: 17px;
 }
 
@@ -130,6 +133,10 @@ td {
     /* margin-top: -40px; */
     /* top: 67%;
     left: 46.4%; */
+}
+
+.prev {
+    cursor: pointer;
 }
 
 
@@ -177,6 +184,21 @@ td {
     margin-left: 9%;
 }
 
+.text:hover {
+    display: block;
+    background-color: #333;
+    cursor: default;
+}
+
+#img {
+    display: block;
+}
+
+div .text {
+    padding: 10px;
+    font-family: minecrafter;
+}
+
 
 /* Mob page */
 
@@ -193,10 +215,6 @@ td {
     padding: 30px;
     padding-top: 0px;
     padding-bottom: 0;
-}
-
-#content tr {
-    /* margin-left: 500px; */
 }
 
 
@@ -240,5 +258,5 @@ td {
     background-color: #333;
     color: white;
     text-align: center;
-    height: 100px;
+    height: 270px;
 }
