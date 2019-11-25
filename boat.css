@@ -258,5 +258,6 @@ div .text {
     background-color: #333;
     color: white;
     text-align: center;
-    height: 270px;
+    height: 320px;
+    padding-top: 10px;
 }
