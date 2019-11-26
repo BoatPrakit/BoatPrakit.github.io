@@ -53,10 +53,10 @@ function changeNav() {
     var li = document.getElementsByClassName("small");
     chn[0].innerHTML = "Mode";
     chn[0].href = "../page/mode.html";
-    li[0].style.paddingLeft = "4%";
+    li[0].style.paddingLeft = "2%";
     chn[1].innerHTML = "Mod";
     chn[1].href = "../page/mod.html";
-    li[1].style.paddingLeft = "5%";
+    li[1].style.paddingLeft = "6%";
 
     chn[2].innerHTML = "Biome";
     chn[2].href = "../page/biome.html";
