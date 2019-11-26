@@ -53,16 +53,17 @@ function changeNav() {
     var li = document.getElementsByClassName("small");
     chn[0].innerHTML = "Mode";
     chn[0].href = "../page/mode.html";
-    li[0].style.paddingLeft = "2%";
+    li[0].style.paddingLeft = "1%";
     chn[1].innerHTML = "Mod";
     chn[1].href = "../page/mod.html";
-    li[1].style.paddingLeft = "6%";
+    li[1].style.paddingLeft = "3%";
 
     chn[2].innerHTML = "Biome";
     chn[2].href = "../page/biome.html";
     chn[3].innerHTML = "Animal";
     chn[3].href = "../page/mob.html";
     li[3].style.paddingLeft = "5%";
+    li[3].style.paddingRight = "3%"
 }
 
 function changeNav1() {
@@ -70,14 +71,14 @@ function changeNav1() {
     var li = document.getElementsByClassName("small");
     chn[0].innerHTML = "Home";
     chn[0].href = "../page/main.html";
-    li[0].style.paddingLeft = "1%";
+    li[0].style.paddingLeft = "0%";
     chn[1].innerHTML = "History";
     chn[1].href = "../page/history.html";
-    li[1].style.paddingLeft = "1%";
+    li[1].style.paddingLeft = "0%";
 
     chn[2].innerHTML = "Block";
     chn[2].href = "../page/block.html";
     chn[3].innerHTML = "version";
     chn[3].href = "../page/version.html";
-    li[3].style.paddingLeft = "1.3%";
+    li[3].style.paddingLeft = "0%";
 }

@@ -63,9 +63,16 @@ td {
     background-size: cover;
 }
 
-.logo img {
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.largelogo {
     margin-top: 17%;
-    margin-left: 16%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .game {
@@ -83,8 +90,8 @@ td {
 /* Navbar */
 
 #navbar {
-    margin-left: 13%;
-    margin-right: 13.7%;
+    /* margin-left: 13%;
+    margin-right: 13.7%; */
     border-radius: 35px;
     background-color: #333;
     text-transform: uppercase;
@@ -93,6 +100,7 @@ td {
 }
 
 #navbar ul {
+    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -204,6 +212,7 @@ div .text {
 
 .mediummob li {
     padding-left: 1%;
+    /* width: 40%; */
 }
 
 .tameanimal li img {
@@ -239,7 +248,7 @@ div .text {
 
 .sticky {
     position: fixed;
-    width: 73.5%;
+    width: 1130px;
     top: 0;
 }
 
