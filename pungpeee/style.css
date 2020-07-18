@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#ffeaa7;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    position: relative;
+    height: 160vh;
+    font-size: 1rem;
+    text-align: center;
+    color: #636e72;
+}
+img{
+    width: 150px;
+}
+.boat,.pond,.bigeye{
+    position: absolute;
+    width: 150px;
+}
+.boat{
+    bottom: 0;
+    left: 2%;
+}
+.pond{
+    bottom: 0;
+    right: 1%;
+}
+.text{
+    position: absolute;
+    top: 100vh;
+    padding: 0 10%;
+    text-shadow: wheat 1px solid;
+    display: block;
+}
+.container h1{
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+span{
+    color: red;
+}
+.text h2{
+    color: white;
+}
+.bigeye{
+    top: 78vh;
+    left: 4vw;
+}
