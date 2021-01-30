@@ -1,0 +1,68 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(to top,#E6DACE 75%, white 25%); /* W3C */
+    width: 100%;
+}
+@media only screen and (min-width: 768px){
+    body{
+        background: linear-gradient(to top,#E6DACE 70%, white 30%); /* W3C */
+    }
+}
+@media only screen and (min-width: 1024px){
+    body{
+        background: linear-gradient(to top,#E6DACE 67%, white 33%); /* W3C */
+    }
+}
+@media only screen and (min-width: 1280px){
+    body{
+        background: linear-gradient(to left, white 65%, #E6DACE 35%); /* W3C */
+    }
+}
+#card{
+    box-shadow: -5px 5px 30px 1px rgba(0, 0, 0, 0.2);
+    background-color: #f4ece6;
+}
+.line{
+    background-color: #0050ff;
+    height: 2px;
+    width: 30%;
+}
+#works a:first-child{
+    background-color: #0050ff;
+    color: white;
+    border: #0050ff 1px solid;
+}
+#works a:first-child:hover{
+    background-color: white;
+    color: black;
+    transition: all;
+    transition-duration: 600ms;
+    border: black 1px solid;
+}
+#works a:last-child{
+    background-color: transparent;
+    border: black 1px solid;
+}
+#works a:last-child:hover{
+    background-color: #0050ff;
+    border: #0050ff 1px solid;
+    color: white;
+    transition: all;
+    transition-duration: 600ms;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+span{
+    font-family: 'Quicksand', sans-serif;
+}
+.fa-square-full{
+    color: #0050ff;
+}
+.right2 button:hover{
+    color: #0050ff;
+}
+.right2 button:first-child{
+    color: #0050ff
+}
+    
