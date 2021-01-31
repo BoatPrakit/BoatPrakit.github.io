@@ -59,10 +59,14 @@ span{
 .fa-square-full{
     color: #0050ff;
 }
-.right2 button:hover{
+.nav-pc button:hover{
     color: #0050ff;
 }
-.right2 button:first-child{
+.active{
     color: #0050ff
+}
+button, button:focus{
+    border: none;
+    outline: 0;
 }
     
