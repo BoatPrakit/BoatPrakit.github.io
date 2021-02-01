@@ -3,21 +3,6 @@ body{
     background: linear-gradient(to top,#E6DACE 75%, white 25%); /* W3C */
     width: 100%;
 }
-@media only screen and (min-width: 768px){
-    body{
-        background: linear-gradient(to top,#E6DACE 70%, white 30%); /* W3C */
-    }
-}
-@media only screen and (min-width: 1024px){
-    body{
-        background: linear-gradient(to top,#E6DACE 67%, white 33%); /* W3C */
-    }
-}
-@media only screen and (min-width: 1280px){
-    body{
-        background: linear-gradient(to left, white 65%, #E6DACE 35%); /* W3C */
-    }
-}
 .full-bg{
     background: #E6DACE;
 }
@@ -62,6 +47,9 @@ span{
 .fa-square-full{
     color: #0050ff;
 }
+.nav-links.open{
+    height: 100vh;
+}
 .nav-links button:hover{
     color: #0050ff;
 }
@@ -72,6 +60,87 @@ button, button:focus{
     border: none;
     outline: 0;
 }
-.fa-bars{
-    color: #0050ff
+.bar{
+    width: 20px;
+    height: 2px;
+    background-color: #0050ff;
+    margin: 5px;
+}
+.close-btn {
+    position: absolute;
+    right: 20px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+}
+.close-btn:before, .close-btn:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 30px;
+    width: 2px;
+    background-color: #333;
+}
+.close-btn:before {
+    transform: rotate(45deg);
+}
+.close-btn:after {
+    transform: rotate(-45deg);
+}
+@media only screen and (max-width: 1024px){
+    .nav-links{
+        height: 0vh;
+        width: 100%;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        background-color: #E6DACE;
+        overflow-y: hidden;
+        z-index: 9;
+        transition: ease-in-out 1s;
+    }
+}
+@media only screen and (min-width: 768px){
+    body{
+        background: linear-gradient(to top,#E6DACE 70%, white 30%); /* W3C */
+    }
+    .bar{
+        width: 40px;
+        height: 4px;
+        background-color: #0050ff;
+        margin: 10px;
+    }
+    .close-btn{
+        right: 90px;
+        top: 90px;
+    }
+    .close-btn:before, .close-btn:after {
+        left: 25px;
+        height: 45px;
+        width: 4px;
+        background-color: #333;
+    }
+}
+@media only screen and (min-width: 1024px){
+    body{
+        background: linear-gradient(to top,#E6DACE 67%, white 33%); /* W3C */
+    }
+    .close-btn{
+        right: 135px;
+        top: 135px;
+    }
+    .close-btn:before, .close-btn:after {
+        position: absolute;
+        left: 0px;
+        content: ' ';
+        height: 45px;
+        width: 4px;
+        background-color: #333;
+    }
+}
+@media only screen and (min-width: 1280px){
+    body{
+        background: linear-gradient(to left, white 65%, #E6DACE 35%); /* W3C */
+    }
 }

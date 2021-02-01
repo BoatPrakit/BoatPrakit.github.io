@@ -20,17 +20,21 @@
                     class="fas fa-square-full mr-2 md:text-3xl lg:text-4xl lg:mr-5"></i>Prakit Wongnuntananon</h1>
             <h2 class="font-normal text-xs md:text-2xl mt-2">FRONTEND DEVELOPER</h2>
         </div>
-        <!-- <i class="fas fa-bars text-2xl md:text-4xl mr-2 hidden"></i> -->
+        <div class="burger xl:hidden z-5">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
         <div class="left hidden xl:flex xl:items-end">
             <h1 class="font-black text-2xl "><i
                     class="fas fa-square-full mr-2 text-2xl"></i>Prakit Wongnuntananon 
                     <span class="font-light text-lg">/  FRONTEND DEVELOPER</span></h1>
-            
         </div>
-        <div class="nav-links hidden xl:flex w-3/12 justify-between">
-            <button id="about-me" class="active">ABOUT ME</button>
-            <button id="resume">RESUME</button>
-            <button id="projects">PROJECTS</button>
+        <div class="nav-links fixed flex justify-center flex-col xl:flex-row xl:relative xl:w-3/12 xl:justify-between">
+            <div class="close-btn hidden xl:hidden"> </div>
+            <button id="about-me" class="active md:text-3xl xl:text-base">ABOUT ME</button>
+            <button id="resume" class="my-20 xl:my-0 md:text-3xl xl:text-base">RESUME</button>
+            <button id="projects" class="md:text-3xl xl:text-base">PROJECTS</button>
         </div>
     </div>
     <div class="container mx-auto xl:flex xl:h-screen xl:items-center xl:justify-center xl:mt-11">
@@ -91,7 +95,7 @@
                 </div>
             </div>
         </div>
-        <div class="font-normal text-xs mt-4 md:text-base lg:text-lg xl:order-1 xl:mt-0 xl:text-sm">©2021 by Prakit Wongnuntananon </div>
+        <div class="font-normal text-xs mt-4 md:text-base lg:text-lg xl:order-1 xl:mt-0 xl:text-sm">by Prakit Wongnuntananon </div>
     </div>
     <script src="./script.js"></script>
 </body>
