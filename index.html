@@ -13,7 +13,8 @@
     <title>Prakit's Resume</title>
 </head>
 
-<body class="full-bg">
+<body>
+    <!-- Start Navbar -->
     <div class="nav p-5 flex justify-between items-center md:p-16 lg:p-28 lg:pb-20 xl:py-8 xl:px-16 bg-white xl:fixed xl:w-full xl:top-0">
         <div class="left flex flex-col xl:hidden">
             <h1 class="font-extrabold text-md md:text-3xl lg:text-4xl"><i
@@ -37,7 +38,9 @@
             <div id="projects" class="md:text-3xl xl:text-base">PROJECTS</div>
         </div>
     </div>
-    <div id="main-page" class="container hidden xl:hidden mx-auto xl:flex xl:h-screen xl:items-center xl:justify-center xl:mt-11">
+    <!-- End Navbar -->
+    <!-- Start Main Page -->
+    <div id="main-page" class="container xl:hidden mx-auto xl:flex xl:h-screen xl:items-center xl:justify-center xl:mt-11">
         <div class="card mx-8 my-3 flex flex-col pt-5 md:mx-48 lg:mx-60 xl:mx-0">
             <div class="flex flex-col items-center">
                 <img class="mb-2 lg:mt-10" src="./images/me.png" alt="me" style="border-radius: 50%; width:50%">
@@ -73,48 +76,140 @@
             <p class="mb-5 md:text-xl lg:text-2xl xl:text-base">Experienced in frontend with over 6 months. I'm part of the camp's website team in the department. Demonstrated talent for frontend web development and cloud computing to optimize online presence. Find out for a job relative to frontend development.</p>
         </div>
     </div>
-    <div id="resume-page" class="mt-10 min-h-screen w-full xl:mt-40 xl:flex xl:flex-col xl:items-center">
+    <!-- End Main Page -->
+    <!-- Start Resume Page -->
+    <div id="resume-page" class="mt-10 hidden min-h-screen w-full xl:mt-40 xl:flex xl:flex-col xl:items-center">
         <h1 class="text-2xl font-semibold md:text-3xl lg:text-4xl text-center">Resume</h1>
-        <div class="resume-content m-5 bg-white p-8 md:p-16 md:mx-24 md:my-14 lg:p-28 xl:w-5/12 xl:p-20">
+        <!-- Start Skill Summary -->
+        <div class="resume-content m-5 bg-white p-8 md:p-16 md:mx-24 md:my-14 lg:p-20 xl:w-5/12 xl:p-20">
             <h2 class="text-lg md:text-2xl lg:text-3xl xl:text-2xl font-extrabold">Skill Summary</h2>
-            <ul class="text-sm md:text-lg lg:text-2xl xl:text-xl mt-3">
-                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>HTML, CSS, Javascript &nbsp;&nbsp; (<b>Expert</b>)</li>
-                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>React &nbsp;&nbsp;(<b>Intermediate</b>)</li>
-                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>ExpressJs &nbsp;&nbsp; (<b>Beginner</b>)</li>
-                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>Regular Expression &nbsp;&nbsp; (<b>Intermediate</b>)</li>
-                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>Tailwind CSS &nbsp;&nbsp; (<b>Intermediate</b>)</li>
-                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>Docker &nbsp;&nbsp; (<b>Intermediate</b>)</li>
+            <ul class="text-xs md:text-lg lg:text-2xl xl:text-base mt-3">
+                <li class="my-2 flex items-center">
+                    <i class="fas fa-square-full mr-2 text-xs"></i>HTML, CSS, Javascript &nbsp;&nbsp; 
+                    (<b>Expert</b>)</li>
+                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>React &nbsp;&nbsp;
+                    (<b>Intermediate</b>)</li>
+                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>ExpressJs &nbsp;&nbsp; 
+                    (<b>Beginner</b>)</li>
+                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>Regular Expression 
+                    &nbsp; (<b>Intermediate</b>)</li>
+                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>Tailwind CSS 
+                    &nbsp;&nbsp; (<b>Intermediate</b>)</li>
+                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>Docker 
+                    &nbsp;&nbsp; (<b>Intermediate</b>)</li>
             </ul>
         </div>
-        <h2 class="text-lg md:text-2xl lg:text-3xl xl:text-2xl font-extrabold bg-transparent mx-5">Experience</h2>
-        <div class="resume-content m-5 bg-white p-8 md:p-16 md:mx-24 md:my-14 lg:p-28 xl:w-5/12 xl:p-20">
-            <h3 class="text-base md:text-lg lg:text-3xl xl:text-2xl font-extrabold bg-transparent">Experience</h3>
+        <!-- End Skill Summary -->
+        <!-- Start Experience -->
+        <h2 class="text-lg md:text-2xl lg:text-3xl xl:text-2xl font-extrabold mx-5 text-center">Experience</h2>
+            <!-- Start HelloDolphin Infra-->
+        <div class="resume-content m-5 mb-10 bg-white p-8 md:p-16 md:mx-24 md:my-14 lg:p-20 xl:w-5/12 xl:p-20">
+            <h3 class="text-sm md:text-lg lg:text-3xl xl:text-xl font-bold mb-3">HelloDophin: Infrastructure Team</h3>
+            <div class="flex flex-col text-xs text-xs md:text-lg lg:text-2xl xl:text-base">
+                <div class="mb-2 opacity-40">
+                    <p>Sep 2020 - Dec 2020</p>
+                    <p>King Mongkut's University Technology Thonburi</p>
+                </div>
+                <ul class="list-inside md:mt-3">
+                    <li class="my-2">
+                        <i class="fas fa-square-full mr-2 text-xs"></i>Generated the SSL certificates 
+                        and installed them for the Hellodolphin website by used docker. </li>
+                    <li class="my-2"><i class="fas fa-square-full mr-2 text-xs"></i>Managed and monitored all 
+                        installed systems for each cloud's server.</li>
+                    <li class="my-2"><i class="fas fa-square-full mr-2 text-xs"></i>Managed all services by 
+                        using docker.</li>
+                    <li class="my-2"><i class="fas fa-square-full mr-2 text-xs"></i>Using Nginx as a web 
+                        server and reverse proxy server.</li>
+                    <li class="my-2"><i class="fas fa-square-full mr-2 text-xs"></i>Maintained the cloud
+                        server by using Ubuntu as an operating system.</li>
+                </ul>
+            </div>
         </div>
+            <!-- End HelloDolphin Infra-->
+            <!-- Start HelloDolphin Frontend -->
+        <div class="resume-content mx-5 my-10 bg-white p-8 md:p-16 md:mx-24 md:my-14 lg:p-20 xl:w-5/12 xl:p-20">
+            <h3 class="text-sm md:text-lg lg:text-3xl xl:text-xl font-bold mb-3">HelloDophin: FrontEnd Developer</h3>
+            <div class="flex flex-col text-xs text-xs md:text-lg lg:text-2xl xl:text-base">
+                <div class="mb-2 opacity-40">
+                    <p>Sep 2020 - Oct 2020</p>
+                    <p>King Mongkut's University Technology Thonburi</p>
+                </div>
+                <ul class="list-inside md:mt-3">
+                    <li class="my-2">
+                        <i class="fas fa-square-full mr-2 text-xs"></i>Developed a single page web application on 
+                        the camp's website Hellodolphin by using React framework. </li>
+                    <li class="my-2"><i class="fas fa-square-full mr-2 text-xs"></i>Collocate component 
+                        following designed template.</li>
+                    <li class="my-2"><i class="fas fa-square-full mr-2 text-xs"></i>Implemented websites and 
+                        landing pages from concept through deployment.</li>
+                    <li class="my-2"><i class="fas fa-square-full mr-2 text-xs"></i>Using bootstrap with 
+                        styled component for responsive and manipulate position.</li>
+                </ul>
+            </div>
+        </div>
+            <!-- End HelloDolphin FrontEnd -->
+            <!-- Start Wipcamp Infra-->
+        <div class="resume-content mx-5 my-10 bg-white p-8 md:p-16 md:mx-24 md:my-14 lg:p-20 xl:w-5/12 xl:p-20">
+            <h3 class="text-sm md:text-lg lg:text-3xl xl:text-xl font-bold mb-3">Wipcamp 12: Infrastructure Team</h3>
+            <div class="flex flex-col text-xs text-xs md:text-lg lg:text-2xl xl:text-base">
+                <div class="mb-2 opacity-40">
+                    <p>Dec 2019 - Mar 2020</p>
+                    <p>King Mongkut's University Technology Thonburi</p>
+                </div>
+                <ul class="list-inside md:mt-3">
+                    <li class="my-2">
+                        <i class="fas fa-square-full mr-2 text-xs"></i>Managed Nginx as a web server for serving 
+                        Nextjs wipcamp's project and routing to every service for each cloud's server. </li>
+                    <li class="my-2"><i class="fas fa-square-full mr-2 text-xs"></i>Installed MariaDB as 
+                        database software and PHPMyAdmin for manage databases.</li>
+                    <li class="my-2"><i class="fas fa-square-full mr-2 text-xs"></i>Designed services 
+                        infrastructures according to project specifications.</li>
+                </ul>
+            </div>
+        </div>
+            <!-- End Wipcamp Infra-->
+        <!-- End Experience -->
+        <!-- Start Educational -->
+        <h2 class="text-lg md:text-2xl lg:text-3xl xl:text-2xl font-extrabold mx-5 text-center">Educational History</h2>
+        <div class="resume-content mx-5 my-10 bg-white p-8 md:p-16 md:mx-24 md:my-14 lg:p-20 xl:w-5/12 xl:p-20">
+            <h3 class="text-sm md:text-lg lg:text-3xl xl:text-xl font-bold mb-3">King Mongkut's University Technology Thonburi</h3>
+            <div class="flex flex-col text-xs text-xs md:text-lg lg:text-2xl xl:text-base text-center">
+                <div class="mb-2 opacity-40">
+                    <p>Aug 19 - present</p>
+                </div>
+                <p>Bachelor of Information Technology</p>
+                <p>Expected Graduation Mar 2023</p>
+            </div>
+        </div>
+        <!-- End Educational -->
     </div>
+    <!-- End Resume Page -->
+    <!-- Start Footer -->
     <div class="p-6 bg-white md:px-14 md:pt-10 lg:px-20 lg:pt-12 xl:flex xl:p-20 xl:py-5 xl:items-center xl:justify-between">
         <div class="flex flex-wrap justify-between xl:order-2 items-center xl:w-2/5 xl:text-center">
             <div>
-                <h1 class="font-bold md:text-xl lg:text-2xl xl:text-base">Call</h1>
-                <p class="text-base md:text-lg lg:text-xl xl:text-sm">089-026-3342</p>
+                <h1 class="font-bold text-sm md:text-xl lg:text-2xl xl:text-base">Call</h1>
+                <p class="text-xs md:text-lg lg:text-xl xl:text-sm">089-026-3342</p>
             </div>
             <div>
-                <h1 class="font-bold md:text-xl lg:text-2xl xl:text-base">Email</h1>
-                <p class="text-base md:text-lg lg:text-xl xl:text-sm">boatprakit@gmail.com</p>
+                <h1 class="font-bold text-sm md:text-xl lg:text-2xl xl:text-base">Email</h1>
+                <p class="text-xs md:text-lg lg:text-xl xl:text-sm">boatprakit@gmail.com</p>
             </div>
             <div class="flex flex-col">
-                <h1 class="font-bold md:text-xl lg:text-2xl xl:text-base">Follow Me</h1>
+                <h1 class="font-bold text-sm md:text-xl lg:text-2xl xl:text-base">Follow Me</h1>
                 <div class="flex items-center justify-between">
                     <a href="https://facebook.com/prakitboat"><i
-                            class="fab fa-facebook-f text-xl md:text-2xl lg:text-3xl xl:text-base"></i></a>
+                            class="fab fa-facebook-f text-lg md:text-2xl lg:text-3xl xl:text-base"></i></a>
                     <a href="https://github.com/BoatPrakit"><i
-                            class="fab fa-github text-xl md:text-2xl lg:text-3xl xl:text-base"></i></a>
+                            class="fab fa-github text-lg md:text-2xl lg:text-3xl xl:text-base"></i></a>
                     <a href="https://www.instagram.com/boat_pkt/?hl=en"><i
-                            class="fab fa-instagram font-bold text-xl md:text-2xl lg:text-3xl xl:text-base"></i></a>
+                            class="fab fa-instagram font-bold text-lg md:text-2xl lg:text-3xl xl:text-base"></i></a>
                 </div>
             </div>
         </div>
         <div class="font-normal text-xs mt-4 md:text-base lg:text-lg xl:order-1 xl:mt-0 xl:text-sm">by Prakit Wongnuntananon </div>
     </div>
+    <!-- End Footer -->
     <script src="./script.js"></script>
 </body>
 
