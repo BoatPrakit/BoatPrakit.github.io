@@ -6,9 +6,12 @@ body{
 .full-bg{
     background: #E6DACE;
 }
-.card{
+.card,.resume-content{
     box-shadow: -5px 5px 30px 1px rgba(0, 0, 0, 0.2);
     background-color: #f4ece6;
+}
+.resume-content{
+    background-color: white;
 }
 .line{
     background-color: #0050ff;
@@ -44,21 +47,15 @@ h1{
 span{
     font-family: 'Quicksand', sans-serif;
 }
-.fa-square-full{
+.fa-square-full,.active,h3{
     color: #0050ff;
 }
 .nav-links.open{
     height: 100vh;
 }
-.nav-links button:hover{
+.nav-links div:hover{
     color: #0050ff;
-}
-.active{
-    color: #0050ff
-}
-button, button:focus{
-    border: none;
-    outline: 0;
+    cursor: pointer;
 }
 .bar{
     width: 20px;
@@ -87,7 +84,7 @@ button, button:focus{
 .close-btn:after {
     transform: rotate(-45deg);
 }
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1280px){
     .nav-links{
         height: 0vh;
         width: 100%;

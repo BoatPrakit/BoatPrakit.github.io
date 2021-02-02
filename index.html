@@ -13,7 +13,7 @@
     <title>Prakit's Resume</title>
 </head>
 
-<body>
+<body class="full-bg">
     <div class="nav p-5 flex justify-between items-center md:p-16 lg:p-28 lg:pb-20 xl:py-8 xl:px-16 bg-white xl:fixed xl:w-full xl:top-0">
         <div class="left flex flex-col xl:hidden">
             <h1 class="font-extrabold text-md md:text-3xl lg:text-4xl"><i
@@ -30,14 +30,14 @@
                     class="fas fa-square-full mr-2 text-2xl"></i>Prakit Wongnuntananon 
                     <span class="font-light text-lg">/  FRONTEND DEVELOPER</span></h1>
         </div>
-        <div class="nav-links fixed flex justify-center flex-col xl:flex-row xl:relative xl:w-3/12 xl:justify-between">
+        <div class="nav-links fixed flex justify-center items-center flex-col xl:flex-row xl:relative xl:w-3/12 xl:justify-between">
             <div class="close-btn hidden xl:hidden"> </div>
-            <button id="about-me" class="active md:text-3xl xl:text-base">ABOUT ME</button>
-            <button id="resume" class="my-20 xl:my-0 md:text-3xl xl:text-base">RESUME</button>
-            <button id="projects" class="md:text-3xl xl:text-base">PROJECTS</button>
+            <div id="about-me" class="active md:text-3xl xl:text-base">ABOUT ME</div>
+            <div id="resume" class="my-20 xl:my-0 md:text-3xl xl:text-base">RESUME</div>
+            <div id="projects" class="md:text-3xl xl:text-base">PROJECTS</div>
         </div>
     </div>
-    <div class="container mx-auto xl:flex xl:h-screen xl:items-center xl:justify-center xl:mt-11">
+    <div id="main-page" class="container hidden xl:hidden mx-auto xl:flex xl:h-screen xl:items-center xl:justify-center xl:mt-11">
         <div class="card mx-8 my-3 flex flex-col pt-5 md:mx-48 lg:mx-60 xl:mx-0">
             <div class="flex flex-col items-center">
                 <img class="mb-2 lg:mt-10" src="./images/me.png" alt="me" style="border-radius: 50%; width:50%">
@@ -67,10 +67,28 @@
             <h1 class="text-3xl font-semibold md:text-5xl xl:text-7xl">Hello,</h1>
             <h2 class="text-xl font-extrabold my-5 md:text-2xl lg:text-3xl xl:text-2xl">Here's who am I & what I do</h2>
             <div id="works" class="my-10 hidden xl:flex">
-                <a class="font-semibold py-1 px-6 flex rounded-full items-center" href="#">Resume</a>
+                <a class="font-semibold py-1 px-6 flex rounded-full items-center cursor-pointer">Resume</a>
                 <a class="font-semibold py-1 px-6 rounded-full flex items-center ml-5" href="http://github.com/BoatPrakit">Github</a>
             </div>
             <p class="mb-5 md:text-xl lg:text-2xl xl:text-base">Experienced in frontend with over 6 months. I'm part of the camp's website team in the department. Demonstrated talent for frontend web development and cloud computing to optimize online presence. Find out for a job relative to frontend development.</p>
+        </div>
+    </div>
+    <div id="resume-page" class="mt-10 min-h-screen w-full xl:mt-40 xl:flex xl:flex-col xl:items-center">
+        <h1 class="text-2xl font-semibold md:text-3xl lg:text-4xl text-center">Resume</h1>
+        <div class="resume-content m-5 bg-white p-8 md:p-16 md:mx-24 md:my-14 lg:p-28 xl:w-5/12 xl:p-20">
+            <h2 class="text-lg md:text-2xl lg:text-3xl xl:text-2xl font-extrabold">Skill Summary</h2>
+            <ul class="text-sm md:text-lg lg:text-2xl xl:text-xl mt-3">
+                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>HTML, CSS, Javascript &nbsp;&nbsp; (<b>Expert</b>)</li>
+                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>React &nbsp;&nbsp;(<b>Intermediate</b>)</li>
+                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>ExpressJs &nbsp;&nbsp; (<b>Beginner</b>)</li>
+                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>Regular Expression &nbsp;&nbsp; (<b>Intermediate</b>)</li>
+                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>Tailwind CSS &nbsp;&nbsp; (<b>Intermediate</b>)</li>
+                <li class="my-2 flex items-center"><i class="fas fa-square-full mr-2 text-xs"></i>Docker &nbsp;&nbsp; (<b>Intermediate</b>)</li>
+            </ul>
+        </div>
+        <h2 class="text-lg md:text-2xl lg:text-3xl xl:text-2xl font-extrabold bg-transparent mx-5">Experience</h2>
+        <div class="resume-content m-5 bg-white p-8 md:p-16 md:mx-24 md:my-14 lg:p-28 xl:w-5/12 xl:p-20">
+            <h3 class="text-base md:text-lg lg:text-3xl xl:text-2xl font-extrabold bg-transparent">Experience</h3>
         </div>
     </div>
     <div class="p-6 bg-white md:px-14 md:pt-10 lg:px-20 lg:pt-12 xl:flex xl:p-20 xl:py-5 xl:items-center xl:justify-between">
