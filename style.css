@@ -6,11 +6,11 @@ body{
 .full-bg{
     background: #E6DACE;
 }
-.card,.resume-content{
+.card,.content{
     box-shadow: -5px 5px 30px 1px rgba(0, 0, 0, 0.2);
     background-color: #f4ece6;
 }
-.resume-content{
+.content{
     background-color: white;
 }
 .line{
@@ -47,7 +47,7 @@ h1{
 span{
     font-family: 'Quicksand', sans-serif;
 }
-.fa-square-full,.active,h3{
+.fa-square-full,.active,h3,.color-second{
     color: #0050ff;
 }
 .nav-links.open{
